@@ -21,19 +21,8 @@
         <mxCell id="xuWl1jCC9T7IRQqKSjT1-14" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;基于均值教师架构构建半监督一致性学习框架，教师模型通过指数移动平均更新，联合监督损失、一致性损失与对比损失进行训练&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="159.5" y="274" width="460.5" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="xuWl1jCC9T7IRQqKSjT1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xuWl1jCC9T7IRQqKSjT1-15" target="xuWl1jCC9T7IRQqKSjT1-16" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="295" y="445" />
-              <mxPoint x="295" y="445" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xuWl1jCC9T7IRQqKSjT1-15" value="&lt;font face=&quot;宋体&quot; style=&quot;font-size: 14px;&quot;&gt;在训练过程中，根据预测残差动态计算样本权重并计算加权损失&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="400" width="460" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xuWl1jCC9T7IRQqKSjT1-16" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;宋体&quot; style=&quot;font-size: 14px;&quot;&gt;根据预测值与真实值的残差，通过基于主成分分析的重构误差计算机制生成异常得分，对比阈值完成对所述工业控制设备的异常检测，以触发系统故障预警&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="500" width="461" height="80" as="geometry" />
+          <mxGeometry x="160" y="389" width="460" height="71" as="geometry" />
         </mxCell>
         <mxCell id="5LUktmP-lAXlllZ-PhMs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
