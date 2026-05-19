@@ -4,15 +4,15 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="xuWl1jCC9T7IRQqKSjT1-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;宋体&quot; style=&quot;font-size: 14px;&quot;&gt;获取&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="157" y="30" width="463" height="90" as="geometry" />
+        <mxCell id="xuWl1jCC9T7IRQqKSjT1-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;利用可学习数据增强模块根据节点特征的重要性分布,通过注意力评分网络对原始节点特征进行定向掩码，输出增强视图&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="157" y="36" width="463" height="84" as="geometry" />
         </mxCell>
         <mxCell id="xuWl1jCC9T7IRQqKSjT1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xuWl1jCC9T7IRQqKSjT1-13" target="xuWl1jCC9T7IRQqKSjT1-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xuWl1jCC9T7IRQqKSjT1-13" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;通过静态图学习器与动态图学习器构建反映所述传感器与执行器之间物理连接与实时因果依赖关系的邻接矩阵，并利用基于所述邻接矩阵的多阶GCN进行处理，输出空间特征&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="xuWl1jCC9T7IRQqKSjT1-13" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;利用有向图聚合层、结构-属性门控机制与时间演化模块对交易图进行时空编码，输出时空特征&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="159" y="160" width="461" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xuWl1jCC9T7IRQqKSjT1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xuWl1jCC9T7IRQqKSjT1-14" target="xuWl1jCC9T7IRQqKSjT1-15" edge="1">
