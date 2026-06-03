@@ -1,0 +1,39 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1562" dy="845" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="xuWl1jCC9T7IRQqKSjT1-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;利用可学习数据增强模块根据节点特征的重要性分布,通过注意力评分网络对原始节点特征进行定向掩码，输出增强视图&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="157" y="49" width="463" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="xuWl1jCC9T7IRQqKSjT1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xuWl1jCC9T7IRQqKSjT1-13" target="xuWl1jCC9T7IRQqKSjT1-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuWl1jCC9T7IRQqKSjT1-13" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;利用有向图聚合层&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;聚合邻居特征，&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: 宋体; background-color: initial; font-size: 14px; text-align: center;&quot;&gt;通过结构-属性门控机制&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 14px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;融合图拓扑与节点属性，并使用&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: 宋体; font-size: 14px; text-align: center;&quot;&gt;时间演化模块对交易图进行时空编码，输出时空特征&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="159" y="161" width="461" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="xuWl1jCC9T7IRQqKSjT1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xuWl1jCC9T7IRQqKSjT1-14" target="xuWl1jCC9T7IRQqKSjT1-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuWl1jCC9T7IRQqKSjT1-14" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;基于均值教师架构构建半监督一致性学习框架，教师模型通过指数移动平均更新，联合监督损失、一致性损失与对比损失进行训练&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="159.5" y="281" width="460.5" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="xuWl1jCC9T7IRQqKSjT1-15" value="&lt;font face=&quot;宋体&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;通过漂移检测器与评估器筛选高置信度伪标签，对教师模型进行在线微调，输出异常交易预测概率，完成异常检测&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;spacingTop=10;spacingLeft=13;spacingBottom=10;spacingRight=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="396" width="460" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5LUktmP-lAXlllZ-PhMs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.33000000000004" y="161" as="targetPoint" />
+            <mxPoint x="389.33000000000004" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZ2H0yxkIsbmmZ-GKFUg-0" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="367" y="465" width="40" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
